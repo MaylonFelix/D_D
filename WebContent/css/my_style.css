@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url("../img/profissionais_ti_conectados.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 325px 225px;
+	margin: auto;
+	width: 70%;
+	height: 200px;
+	background: -webkit-linear-gradient(left, rgba(255, 0, 0, 0),
+		rgba(0, 1, 160, 10)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, rgba(255, 0, 0, 0),
+		rgba(0, 1, 160, 10)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, rgba(255, 0, 0, 0),
+		rgba(, 1, 160, 10)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, rgba(255, 0, 0, 0),
+		rgba(0, 1, 160, 10)); /* Standard syntax (must be last) */
+}
+
+@font-face {
+	font-family: myFirstFont;
+	src: url(sansation_light.woff);
+}
+
+h1 {
+	font-size: 45px;
+	font-family: myFirstFont, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+p.result {
+	text-align: justify;
+	text-indent: 50px;
+	font-size: 10px;
+	font-family: myFirstFont, Arial, Helvetica, sans-serif;
+}
+
+.label_normal {
+	text-align: justify;
+	font-size: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table,td,th {
+	border: 1px solid black;
+}
+
+td {
+	padding: 15px;
+}
+
+div.ex {
+	width: 90%;
+	padding: 2px;
+	border: 5px solid gray;
+	margin: 10px;
+}
+
+.center {
+	margin: auto;
+	width: 70%;
+	background-color: #b0e0e6;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+}
