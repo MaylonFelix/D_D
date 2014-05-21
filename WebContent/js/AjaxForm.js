@@ -39,11 +39,9 @@ $(document).ready(function() {
 										 * dataJson = {nome : $('#nome').val(),
 										 * descricao :$('#descricao').val()};
 										 */
-										dataString = $("#myAjaxRequestForm")
-												.serialize();
+										dataString = $("#myAjaxRequestForm").serialize();
 
-										$
-												.ajax({
+										$.ajax({
 													contentType : "application/x-www-form-urlencoded; charset=UTF-8",
 													type : "POST", // Foi só
 																	// trocar
@@ -65,8 +63,7 @@ $(document).ready(function() {
 													success : function(data,
 															textStatus, jqXHR) {
 														if (data.success) {
-															$("#ajaxResponse")
-																	.html("");
+															$("#ajaxResponse").html("");
 															console
 																	.log(data.entidade.nome);
 															console
